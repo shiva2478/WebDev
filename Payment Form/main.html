@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1 class="main_heading">PAYMENT FORM</h1>
+        <hr>
+        <h3>User Information</h3>
+        <h4>Name: *<input type="text"  placeholder="Gatuam Shiva"></h4>
+
+        <p>
+            <fieldset>
+        <legend>Select Gender</legend>
+        <label for = "101">
+            <input type ="radio"value = "Male" name = "Gender" id = "101">Male
+          </label>
+          <label for = "102">
+            <input type ="radio"value = "Female" name = "Gender" id = "102">Female
+          </label> 
+            </fieldset>
+        </p> 
+
+        <p>Address: <textarea name="Address" placeholder="Enter your Address"></textarea> </p>
+        <h4>Email: <input type="text"placeholder= "beingshiva78gmail.com"> </h4>
+        <h4>PinCode: <input type="number"placeholder= "124507"> </h4>
+
+        <h3>Payment Information</h3>
+
+        <h4>Card Type: <select name = "Card Type">
+            <option value>"--Select Card Type--"</option>
+            <option value ="UPI">UPI</option>
+            <option value ="VISA">VISA</option>
+            <option value ="Mastercard">Mastercard </option>
+            <option value ="RuPay">RuPay</option>
+            <option value ="Contactless">Contactless</option>
+        </select></h4>
+
+        <h4>Card Number: *<input type="number"placeholder= "1111-2222-3333-4444"> </h4>
+        <h4>Expiration Date: <input type="date"placeholder= "dd/mm/yyyy "> </h4>
+        <h4>CVV: <input type="number"placeholder= "123 "> </h4>
+        <input type = "submit"value="Pay Now"></input>
+
+    </div>
+        
+</body>
+</html>

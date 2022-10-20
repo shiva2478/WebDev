@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size:17px;
+    padding:8px;
+}
+
+.container{
+    background-color: #e1ebef;
+    padding:5px 20px 15px 20px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea{
+    font-size: 18px;
+    width: 100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset{
+    background-color: #fff;
+    border:1px solid #ccc;
+}
+
+.main_heading{
+    text-align: center;
+    
+}
+
+input[type="submit"]
+{
+    background-color: rgba(24, 176, 237, 0.999);
+    color: white;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 500px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover
+{
+    background-color: rgb(24, 212, 42);
+}
