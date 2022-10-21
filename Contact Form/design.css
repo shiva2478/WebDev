@@ -1,10 +1,8 @@
 *{
-    box-sizing:border-box;
-    
+    box-sizing:content-box;
 }
 
-input[type="submit"]
-{
+input[type="submit"]{
     background-color: rgb(42, 140, 233);
     border: none;
     color: aliceblue;
@@ -16,7 +14,6 @@ input[type="submit"]:hover{
     background-color: rgb(246, 104, 232);
 }
 
-
 .page{
     background-color: rgb(217, 236, 242);
     padding:5px 20px 15px 20px;
@@ -24,15 +21,12 @@ input[type="submit"]:hover{
    
 }
 
-input[type="text"]
-{
+input[type="text"]{
     width: 100%;
     padding: 5px;
     border-radius: 5px;
     border-color: black;
 }
-
-
 
 ::placeholder{
     color:dimgray;
@@ -43,10 +37,8 @@ input[type="text"]
     padding:5px 20px 15px 20px;
     border:1px solid rgb(0, 0, 0);
     border-radius: 10px;
-   
-
-
-    
+    box-sizing: content-box;
+    width: 50%;   
 }
 
 .header{
